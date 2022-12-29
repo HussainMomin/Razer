@@ -1,0 +1,689 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    width: 100%;
+    border-bottom: 2px solid #44D62C;
+    /* position: sticky;
+    z-index: 1; */
+
+}
+
+
+#logo {
+    margin: 0px 20px;
+}
+
+#logo img {
+    /* border-radius: 40px; */
+    height: 56px;
+    margin: 0px 0px;
+
+}
+
+#navbar ul {
+    display: flex;
+    margin-left: 300px;
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+
+}
+
+
+#navbar ul li {
+
+    list-style: none;
+    padding: 0px 0px;
+
+}
+
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 3px 23px;
+    /* border-radius: 20px; */
+}
+
+#navbar ul li a:hover {
+    color: #44D62C;
+    transform: scale(1.1);
+    transition: .10s;
+}
+
+#navbar ul li a.active {
+    color: #44D62C;
+    /* transform: scale(1.1); */
+}
+
+#logo a:hover {
+    cursor: pointer;
+
+
+}
+
+/* home layout */
+
+#photo {
+
+    display: flex;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    /* flex-direction: column; */
+    /* height: 666px; */
+    /* padding: 5px 200px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background: url('img/Cyberpunk2077.jpg') no-repeat center center/cover; */
+    width: 100%;
+}
+
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: large;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 2px 5px;
+}
+
+.fa-regular,
+.far {
+    /* font-weight: 400; */
+    font-size: large;
+    margin: 2px 5px;
+}
+
+.namelogo {
+    display: flex;
+    margin: 0px 11px;
+    height: 37px;
+}
+
+/* ====================================================================================================================================== */
+
+
+/* conteainer section */
+
+
+/* ====================================================================================================================================== */
+
+.conteainer {
+    background-color: #090909;
+    /* border-bottom: 2px solid #44D62C; */
+    /* margin-top: 0px;
+    position: relative;
+    width: 100%;
+    height: 555px; */
+
+}
+
+
+
+
+#Ad {
+    display: flex;
+    justify-content: center;
+}
+
+#Ad .box {
+
+    margin: 50px 100px;
+
+}
+
+#Ad .box img {
+    height: 350px;
+    display: block;
+    margin: auto;
+
+}
+
+.H {
+    color: #44d62c;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    font-size: 2.2rem;
+}
+
+
+
+/* ====================================================================================================================== */
+.multipanels-component {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* bootstrap */
+    box-sizing: border-box;
+    max-height: max-content;
+    max-width: 1920px;
+    padding: 2rem 0;
+    margin: 0 auto;
+}
+
+
+/* =========================================================================================================================
+
+
+                                           consol 
+
+=========================================================================================================================
+  */
+/* .carousel-item {
+    height: 666px;
+} */
+
+/* .w-100 {
+    height: 856px;
+    width: 100%!important;
+} */
+
+/* .consol{
+    height: 555px;
+    background: url('img/consol.jpg') no-repeat center center/cover ;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+} */
+
+#consol {
+    background: url('img/consol.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    height: 555px;
+    padding: 5px 200px;
+    /* justify-content: center; */
+    align-items: center;
+    opacity: 0.90;
+}
+
+/* #consol::before{
+     background: url('img/consol.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    height: 555px;
+    padding: 5px 200px;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    z-index: 1;
+} */
+
+#consol h2 {
+    margin-top: 70px;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+#consol h4 {
+
+    color: white;
+    text-align: center;
+
+
+}
+
+/* =================================================================================================================================== */
+
+
+/* WHY IS USE RAZER */
+
+
+/* ===================================================================================================================================== */
+/* .icon{
+    height: 34px;
+} */
+
+.conteainer2 {
+
+    background-color: black;
+    height: 500px;
+
+}
+
+#main-div {
+    padding-top: 70px;
+}
+
+
+.icon {
+    height: 70px;
+    display: block;
+    margin: auto;
+}
+
+#panal {
+
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#panal .box {
+
+    width: 280px;
+    margin: 18px 45px;
+
+}
+
+.box p {
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.box h3 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.conteainer2 h1 {
+    color: #44d62c;
+    font-weight: bold;
+    font-size: 2.9rem;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+
+/* ============================================================================================================================================ */
+
+
+
+/* Footer section */
+
+
+
+/* ============================================================================================================================================ */
+
+#footer {
+    background-color: #090909;
+
+    height: 275px;
+}
+
+.f-main-box {
+    display: flex;
+}
+
+.f-main-box h5 {
+    color: white;
+    font-style: bold;
+
+}
+
+.f-box {
+    margin: 25px 130px;
+}
+
+.f-box ul li {
+    list-style: none;
+
+}
+
+.f-box li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.79rem;
+
+}
+
+
+
+.Follow {
+
+    margin: 25px 100px;
+
+
+}
+
+/* .Follow ul li {
+    list-style: none;
+
+} */
+
+.Follow a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    padding: 0px 5px;
+
+}
+
+.Follow a:hover {
+    color: #44D62C;
+}
+
+.line {
+    border-bottom: 2px solid #44d62c;
+}
+
+.copyrigtht {
+    /* margin-top: 15px; */
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+/* ============================================================================================================================================ */
+/* ============================================================================================================================================ */
+
+
+
+
+
+
+/* games.css */
+
+
+
+
+
+
+/* ============================================================================================================================================ */
+/* ============================================================================================================================================ */
+
+
+#games-section {
+    background-color: #0a0a0a;
+    /* height: auto; */
+
+}
+
+.title h1 {
+    color: #44d62c;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 90px;
+
+}
+
+
+
+.games {
+    display: flex;
+    justify-content: center;
+}
+
+.game-card {
+    margin: 70px 80px;
+
+}
+
+.game-card img {
+    height: 350px;
+    border-radius: 15px;
+}
+
+.game-card :hover {
+
+    transform: scale(1.1);
+    transition: .50s;
+}
+
+
+.line2 {
+    height: 0px;
+    width: 15%;
+    border-bottom: 3px solid #44d62c;
+    margin: auto;
+}
+
+.line3 {
+    height: 0px;
+    width: 10%;
+    border-bottom: 3px solid #44d62c;
+    margin: auto;
+    margin-top: 5px;
+}
+
+/* ================================================================================================================================================= */
+
+/* service box css  */
+
+/* ================================================================================================================================================= */
+
+#service {
+    background-color: #111;
+    height: 500px;
+    padding: 5rem 1.25rem;
+    /* margin-bottom: 50px; */
+}
+
+#service h2 {
+    /* margin: 10px 10px;  */
+    color: #44D62C;
+    font-size: 2.25rem;
+    line-height: 46px;
+    font-weight: 200;
+    text-align: center;
+
+
+}
+
+#service .description {
+    color: #999;
+    margin: 0 0 16px;
+    padding: 20px 19rem;
+    justify-content: center;
+    /* grid-row-start: secand; */
+    align-items: center;
+    font-size: 1.125rem;
+    font-weight: 300px;
+    line-height: 1.75rem;
+}
+/* ---------------------- 1*/
+
+#service-gold {
+    background: url(img/gold2.jpg)no-repeat center center/cover;
+    height: 1125px;
+    padding: 3rem 1.25rem;
+}
+
+#service-gold h2 {
+    color: white;
+    font-size: 2.25rem;
+    line-height: 46px;
+    font-weight: 200;
+    text-align: center;
+
+}
+
+#service-gold .description2 {
+    color: #999;
+    margin: 0 0 16px;
+    padding: 20px 19rem;
+    justify-content: center;
+    /* grid-row-start: secand; */
+    align-items: center;
+    font-size: 1.125rem;
+    font-weight: 300px;
+    line-height: 1.75rem;
+}
+
+/* ------------------2 */
+#service-silver {
+    background: url(img/silver1.jpg)no-repeat center center/cover;
+    height: 1125px;
+    padding: 3rem 1.25rem;
+}
+
+#service-silver h2 {
+    color: white;
+    font-size: 2.25rem;
+    line-height: 46px;
+    font-weight: 200;
+    text-align: center;
+
+}
+
+#service-silver .description3 {
+    color: #999;
+    margin: 0 0 16px;
+    padding: 20px 19rem;
+    justify-content: center;
+    /* grid-row-start: secand; */
+    align-items: center;
+    font-size: 1.125rem;
+    font-weight: 300px;
+    line-height: 1.75rem;
+}
+/* ---------------------3 */
+#service-pins{
+    background: url(img/pins1.jpg)no-repeat center center/cover;
+    height: 1125px;
+    padding: 3rem 1.25rem;
+}
+
+#service-pins h2 {
+    color: white;
+    font-size: 2.25rem;
+    line-height: 46px;
+    font-weight: 200;
+    text-align: center;
+
+}
+
+#service-pins .description4 {
+    color: #999;
+    margin: 0 0 16px;
+    padding: 20px 19rem;
+    justify-content: center;
+    /* grid-row-start: secand; */
+    align-items: center;
+    font-size: 1.125rem;
+    font-weight: 300px;
+    line-height: 1.75rem;
+}
+
+#service-care{
+    background: url(img/razer-care3.jpg)no-repeat center center/cover;
+    height: 800px;
+    padding: 3rem 1.25rem;
+}
+
+#service-care h2 {
+    color:white ;
+    font-size: 2.25rem;
+    line-height: 46px;
+    font-weight: 200;
+    text-align: center;
+
+}
+
+#service-care .description5 {
+    color: #999;
+    margin: 0 0 16px;
+    padding: 20px 19rem;
+    justify-content: center;
+    /* grid-row-start: secand; */
+    align-items: center;
+    font-size: 1.125rem;
+    font-weight: 300px;
+    line-height: 1.75rem;
+}
+
+#service-id{
+    background: url(img/services-razer-id.jpg)no-repeat center center/cover;
+    height: 700px;
+    padding: 3rem 1.25rem;
+}
+
+#service-id h2 {
+    color:white ;
+    font-size: 2.25rem;
+    line-height: 46px;
+    font-weight: 200;
+    text-align: center;
+
+}
+
+#service-id .description6 {
+    color: #999;
+    margin: 0 0 16px;
+    padding: 20px 19rem;
+    justify-content: center;
+    /* grid-row-start: secand; */
+    align-items: center;
+    font-size: 1.125rem;
+    font-weight: 300px;
+    line-height: 1.75rem;
+}
+
+/* ========================================================================= */
+
+#keyborad-section {
+    background-color: #0a0a0a;
+    /* height: auto; */
+  
+  }
+  
+  
+  
+  .Keyborad {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .keyborad-card {
+    background-color: white;
+    margin: 70px 80px;
+    height: 457px;
+    width: 290px;
+    border-radius: 18px;
+  
+  }
+  
+  .keyborad-card:hover {
+         
+    transform: scale(1.1);
+    transition: .40s;
+    box-shadow: 2px 2px 20px 5px  #44d62c;
+    
+  }
+  
+  .L-img img {
+    
+      width: 286px;
+  }
+  
+  
+  .L-line{
+    height: 0px;
+    width: 70%;
+    border-bottom: 3px solid #44d62c;
+    margin: auto;
+  
+  }
+  
+  .l-name{
+  
+    text-align: center;
+  }
